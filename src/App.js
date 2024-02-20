@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Main from './Test';
+import MyGrid from './sec';
+import Space from './divider';
+import Third from './third';
+import Fourth from './fourth'
+import Fifth from './fifth'
+import FAQAccordion from './sixth'
+import Footer from './footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Main />
+      <Space/>
+<MyGrid/>
+<Space/>
+<Third/>
+<Space/>
+<Fourth/>
+<Space/>
+<Fifth/>
+<Space/>
+<FAQAccordion/>
+<Space/>
+<Footer/>
     </div>
   );
 }
